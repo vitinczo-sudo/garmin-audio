@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Run Beats &amp; Smart Workout Music — audio for Garmin watches</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem;
+           background: #111; color: #eee; line-height: 1.5; }
+    h1 { color: #ff8800; } h2 { color: #00cc66; margin-top: 2rem; }
+    a { color: #66bbff; } li { margin: .3rem 0; } audio { vertical-align: middle; height: 28px; }
+    .small { color: #999; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <h1>Smart Run Beats &amp; Smart Workout Music</h1>
+  <p>Original workout audio for the <strong>Smart Run Beats</strong> and <strong>Smart Workout Music</strong>
+     Connect IQ apps (Garmin music watches). The apps download these files to your watch over Wi-Fi.</p>
+  <p class="small">All audio is generated from scratch by code (no samples, no third-party music) and is
+     released under <a href="LICENSE">CC0 1.0 (public domain)</a>.</p>
+
+  <h2>Smart Run Beats — exact-tempo beats</h2>
+  <p>Match your steps (running, steps per minute) or your pedal strokes (cycling, rpm) to the beat.</p>
+  <ul id="beats"></ul>
+
+  <h2>Smart Workout Music — instrumental tracks</h2>
+  <ul id="music"></ul>
+
+  <p class="small">Catalogs: <a href="beats/catalog.json">beats/catalog.json</a> ·
+     <a href="music/catalog.json">music/catalog.json</a></p>
+
+  <script>
+    for (const kind of ["beats", "music"]) {
+      fetch(kind + "/catalog.json").then(r => r.json()).then(cat => {
+        const ul = document.getElementById(kind);
+        for (const t of cat.tracks) {
+          const li = document.createElement("li");
+          const mb = (t.bytes / 1e6).toFixed(1);
+          li.innerHTML = `${t.title} — ${Math.round(t.seconds / 60)} min, ${mb} MB
+            <audio controls preload="none" src="${kind}/${t.id}.mp3"></audio>`;
+          ul.appendChild(li);
+        }
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "name": "Smart Run Beats",
+  "tracks": [
+    {
+      "id": "b150",
+      "title": "Run Beat 150 (150 BPM)",
+      "bpm": 150,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b150.mp3"
+    },
+    {
+      "id": "b160",
+      "title": "Run Beat 160 (160 BPM)",
+      "bpm": 160,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b160.mp3"
+    },
+    {
+      "id": "b165",
+      "title": "Run Beat 165 (165 BPM)",
+      "bpm": 165,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b165.mp3"
+    },
+    {
+      "id": "b170",
+      "title": "Run Beat 170 (170 BPM)",
+      "bpm": 170,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b170.mp3"
+    },
+    {
+      "id": "b175",
+      "title": "Run Beat 175 (175 BPM)",
+      "bpm": 175,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b175.mp3"
+    },
+    {
+      "id": "b180",
+      "title": "Run Beat 180 (180 BPM)",
+      "bpm": 180,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b180.mp3"
+    },
+    {
+      "id": "b185",
+      "title": "Run Beat 185 (185 BPM)",
+      "bpm": 185,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b185.mp3"
+    },
+    {
+      "id": "b190",
+      "title": "Run Beat 190 (190 BPM)",
+      "bpm": 190,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b190.mp3"
+    },
+    {
+      "id": "b080",
+      "title": "Ride Beat 80 (80 BPM)",
+      "bpm": 80,
+      "seconds": 300,
+      "bytes": 3601315,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b080.mp3"
+    },
+    {
+      "id": "b090",
+      "title": "Ride Beat 90 (90 BPM)",
+      "bpm": 90,
+      "seconds": 300,
+      "bytes": 3601316,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b090.mp3"
+    },
+    {
+      "id": "b100",
+      "title": "Ride Beat 100 (100 BPM)",
+      "bpm": 100,
+      "seconds": 300,
+      "bytes": 3601318,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/beats/b100.mp3"
+    }
+  ]
+}

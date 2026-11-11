@@ -1,0 +1,12 @@
+Smart Run Beats / Smart Workout Music — audio files
+
+All audio in this repository (beats/*.mp3 and music/*.mp3) was generated
+from scratch by tools/gen_audio.py using mathematical synthesis only.
+No samples, loops, recordings or third-party music were used.
+
+The audio files are dedicated to the public domain under
+CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).
+You may copy, modify and distribute them, even for commercial purposes,
+without asking permission.
+
+Author: Vitor_dev (vitinczo-sudo)

@@ -1,0 +1,53 @@
+{
+  "name": "Smart Workout Music",
+  "tracks": [
+    {
+      "id": "m1241",
+      "title": "Morning Miles (124 BPM)",
+      "bpm": 124,
+      "seconds": 240,
+      "bytes": 2881184,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/music/m1241.mp3"
+    },
+    {
+      "id": "m1282",
+      "title": "Long Ride (128 BPM)",
+      "bpm": 128,
+      "seconds": 240,
+      "bytes": 2881180,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/music/m1282.mp3"
+    },
+    {
+      "id": "m1403",
+      "title": "Tempo Run (140 BPM)",
+      "bpm": 140,
+      "seconds": 240,
+      "bytes": 2881180,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/music/m1403.mp3"
+    },
+    {
+      "id": "m1504",
+      "title": "Hill Repeats (150 BPM)",
+      "bpm": 150,
+      "seconds": 240,
+      "bytes": 2881183,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/music/m1504.mp3"
+    },
+    {
+      "id": "m1655",
+      "title": "Race Day (165 BPM)",
+      "bpm": 165,
+      "seconds": 240,
+      "bytes": 2881179,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/music/m1655.mp3"
+    },
+    {
+      "id": "m1726",
+      "title": "Final Kick (172 BPM)",
+      "bpm": 172,
+      "seconds": 240,
+      "bytes": 2881181,
+      "url": "https://vitinczo-sudo.github.io/garmin-audio/music/m1726.mp3"
+    }
+  ]
+}
